@@ -14,25 +14,44 @@
           style="width: 70px; height: 23px"
         />
       </a>
-      <h2>Advanced Search</h2>
     </header>
-
+    <div>Advanced Search</div>
     <div id="asFormDiv">
-      <label for="asd">asd</label>
-      <input type="text" name="asd" />
-      asd
-      <br />
-      <label for="asd">asd</label>
-      <input type="text" name="asd" />
-      asd
-      <br />
-      <label for="asd">asd</label>
-      <input type="text" name="asd" />
-      asd
-      <br />
-      <label for="asd">asd</label>
-      <input type="text" name="asd" />
-      asd
+      <form action="https://www.google.com/search?">
+        <div id="formHeader">
+          <span>Find pages with...</span>
+          <div>To do this in the search box</div>
+        </div>
+        <div class="inputLine">
+          <label for="asd">all these words:</label>
+          <input type="text" name="as_q" />
+          Type the important words: tricolor rat terrier
+        </div>
+
+        <br />
+        <div class="inputLine">
+          <label for="exactWords">this exact word or phrase:</label>
+          <input type="text" name="as_epq" />
+          Put exact words in quotes: "rat terrier"
+        </div>
+
+        <br />
+        <div class="inputLine">
+          <label for="anyWord">none of these words:</label>
+          <input type="text" name="as_oq" />
+          Type OR between all the words you want: miniature OR standard
+        </div>
+        <br />
+        <div class="inputLine">
+          <label for="noneOfWords">numbers ranging from:</label>
+          <input type="text" name="as_eq" />
+          Put a minus sign just before words you don't want: -rodent, -"Jack
+          Russell"
+        </div>
+        <div id="buttonsDiv">
+          <input id="as" type="submit" value="Advanced Search" />
+        </div>
+      </form>
     </div>
   </body>
 </html>
