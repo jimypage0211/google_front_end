@@ -1,0 +1,105 @@
+body {
+    margin: 0%;
+    font-family: arial,sans-serif;
+}
+
+img{
+    margin-top: 15px;
+    margin-left: 10px;
+
+    height: 24px;
+    width: 74px;
+}
+#goBackDiv{
+    margin: 8px;
+}
+
+#asHeader{
+    color: #d93025;
+    font-size: 20px;
+    padding: 35px 10px 25px 45px;
+    border-bottom: 0.8px solid #e4e4e4;
+}
+
+#asFormDiv {
+    margin: 40px 21.84px 0px 45px ;    
+}
+
+#formHeader{
+    display: flex;
+    min-width: 167px;
+    min-height: 41px;    
+}
+
+#empty{
+    display: flex;
+    width: 26%;
+}
+
+#exampleHeader {
+    display: flex;
+    width: 20%;    
+    font-size: 13px;
+    padding-left: 6%;
+}
+
+.formLabels{
+    display: inline-block;
+    width: 10%;    
+    color: #222;
+    font-size: 13px;     
+}
+
+
+.inputDivs{
+    display: inline-block;
+    width: 30%;
+}
+.formInputs{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 30px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+.formExamples{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;    
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+}
+
+#buttonsDiv{    
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin-left: 5.6%;
+}
+
+#as{
+    text-align: center;
+    float: right;
+    margin: 10px 0;
+    padding: 0 12px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
